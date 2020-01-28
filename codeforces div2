@@ -2,3 +2,5 @@ Watermelon - else if nhi lagaya, gadha khin ka
 String Task - s[i] is a character and +32 krne se lowercase (97-65) , 		else if(s[i]>='a'&&s[i]<='z') ans=ans+"."+s[i];
 Petya and strings - Lexicographically matlab first different character
 
+TO Sort in descending order:
+    sort(arr, arr+n, greater<int>()); 
