@@ -5,7 +5,13 @@ spoj/SILVER - mast ques (logarithmic)
 spoj/KURUK14
 
 
-
+sorting vectors of pair
+// Using simple sort() function to sort 
+    sort(vect.begin(), vect.end()); 
+ 
+    // Using sort() function to sort by 2nd element 
+    // of pair 
+    sort(vect.begin(), vect.end(), sortbysec);
 
 Good ques:(codeforces div2 A ladder)
 Twins
