@@ -12,6 +12,11 @@ sorting vectors of pair
     // Using sort() function to sort by 2nd element 
     // of pair 
     sort(vect.begin(), vect.end(), sortbysec);
+    bool sortbysec(const pair<int,int> &a, 
+              const pair<int,int> &b) 
+{ 
+    return (a.second < b.second); 
+} 
 
 Good ques:(codeforces div2 A ladder)
 Twins
